@@ -1,0 +1,10 @@
+##Read and write the images
+
+import cv2
+
+img = cv2.imread("images.png")
+cv2.imshow('Show',img)
+cv2.imwrite('photo.jpg',img)
+
+cv2.waitKey(5000)
+cv2.destroyAllWindows()
