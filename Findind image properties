@@ -1,0 +1,7 @@
+#image properties
+
+import cv2
+img = cv2.imread('images.png')
+
+print(img.shape)
+print(img.size)
