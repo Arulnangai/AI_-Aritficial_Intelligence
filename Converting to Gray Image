@@ -1,0 +1,14 @@
+#Modifing images to grey
+
+import cv2
+img = cv2.imread("images.png")
+
+grayImage = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+cv2.imshow('original',img)
+cv2.imshow('Gray', grayImage)
+
+cv2.imwrite('grayImage.png', grayImage)
+
+print(img.shape)
+print(img.size)
