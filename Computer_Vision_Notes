@@ -1,0 +1,44 @@
+OpenCV - Library used for tasks like image and video analysis
+
+pillow - Working with images ( Satellite images .. TIP format --> high MB). Allows to open manupulate and save various image file formats. Can resize, enhance or convert images
+       - High end image processing 
+
+Scikit Images - Filtering, Segmentation ( different color for different object) and feature extraction 
+      - ( eg. Airport auto scanning and SGPass login scan ) 
+
+urllib - Working with URL. Opening and reading URL's.
+
+SciPy - Scientific Python ->  Knife for Scientific and engineering calculation like number integeration, Optimization, signal processing
+      - eg : like scientific calculation
+
+NumPy - Numerical Python -> Numerical computations, Powerful array object called -> ndarray. Allows to perform mathematical operation on large database
+
+
+Other lib :
+pip install matplotlin
+pip install imutils
+pip install scipy
+pip install seaborn
+
+Applications : 
+
+Object recogition
+Face recognition
+Mobile camera - low mps - Frame per second : video - Collection of images 
+Agriculture
+Satellite images
+OCR - > Optical Character Recognization
+Signography
+
+
+Steps:
+1. Gathering data -> image data
+2. Data Cleaning / Data preprocessing -> only structure and shape required. NO NEED FOR COLOR IMAGES ... can convert grey images
+3. Choosing a Model/ Concept -> What we gonna choose like concepts and Algorithms Eg : Computer vision / numeric 
+4. Model Training 
+5. Model Evaluation -> Testing 
+6. Parameter Tuning - optional -> Improving evaluation eg : increaning data , preprocessing
+7. Model Prediction -> Final output 
+
+
+
