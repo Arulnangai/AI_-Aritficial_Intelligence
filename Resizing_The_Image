@@ -1,0 +1,11 @@
+import cv2
+import imutils
+
+img = cv2.imread('images.png')
+
+resizedImg = imutils.resize(img, width=100)
+
+cv2.imshow('newImg.jpg',img)
+cv2.imshow('Resized.jpg',resizedImg)
+
+cv2.imwrite('resizedImage.jpg',resizedImg)
