@@ -1,0 +1,4 @@
+Resize:
+    package - imutils
+    syntax: 
+        imutils.resize
